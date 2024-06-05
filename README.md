@@ -1,13 +1,11 @@
-# dno-fin
-# Tema
-este es el tema que elegí para la propuesta del dashboard final
-## Dimensiones del tema 
-Estas son las dimensiones del tema elegido
-⋅⋅* Dimensión 1
-⋅⋅* Dimensión 2
-⋅⋅* Dimensión 3
+# Título
+## Tema
+Tema para dashboard final del curso
+
+### Dimensiones
+Dimensiones del tema elegido
 
 ## Indicadores
-⋅⋅* Indicador 1
-⋅⋅* Indicador 2
-⋅⋅* Indicador 3
+1. Indicador
+2. indicador
+3. indicador
