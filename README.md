@@ -1,2 +1,4 @@
 # dno-fin
-Concepto
+Tema
+Dimensiones del tema
+Indicadores
