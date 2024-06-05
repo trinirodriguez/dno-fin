@@ -10,8 +10,8 @@ Dimensiones del tema elegido
 2. indicador
 3. indicador
 
-⋅⋅⋅_Indicdor 1_
+⋅Indicdor 1
 
-⋅⋅⋅_Indicador 2_
+⋅Indicador 2
 
-⋅⋅⋅_Indicador 3_
+⋅Indicador 3
