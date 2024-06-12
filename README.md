@@ -1,6 +1,7 @@
 # Título
 ## Tema
 La variedad de porotos en Chile (más de 90)
+Gracias a https://laderasur.com/articulo/porotarium-austral-una-iniciativa-local-que-lucha-por-la-conservacion-de-los-porotos-de-chile/ por la información
 
 ### Dimensiones
 1. Agronómica
@@ -34,11 +35,3 @@ Eventos y festividades: Celebraciones y festivales que destacan el uso de poroto
 
 Preferencias de los consumidores: Variedades de porotos más populares entre los consumidores.
 
-
-
-## Indicadores
-⋅Indicdor 1
-
-⋅Indicador 2
-
-⋅Indicador 3
