@@ -32,18 +32,37 @@
             gap: 1rem;
         }
         .chart-container > div {
-            flex: 1 1 calc(50% - 1rem); /* Cambia a 50% para que sean dos gráficos por fila */
-            max-width: calc(50% - 1rem);
+            flex: 1 1 calc(40% - 1rem); /* Cambia a 50% para que sean dos gráficos por fila */
+            max-width: calc(40% - 1rem);
         }
         .nutritional-chart-container {
             margin-top: 10rem; /* Ajusta según necesidades de espaciado */
+        }
+         .chart-wrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .chart-wrapper canvas {
+            margin-bottom: 1rem;
+        }
+
+        .chart-wrapper img {
+            position: absolute;
+            width: 350px;
+            height: 250px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="row">
+<img src="https://raw.githubusercontent.com/trinirodriguez/dno-fin/main/porotos.png">
             <div class="col-md-9 col-lg-6 mx-auto py-5">
+
                 <h1 class="lead display-4 my-2"> Más Chileno que los porotos </h1>
                 <h2 class="fs-6 lead mb-5">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-right" viewBox="0 0 20 20">
@@ -51,8 +70,7 @@
                     </svg>
                      Trinidad Rodríguez
                 </h2>
-                <p class="lead"> El poroto, también conocido como frijol, tuvo su origen hace 8000 años en Mesoamérica, específicamente, México. Sin embargo, hoy en día, no se encuentran tantas variedades como en Chile. </p>
-             <h1 class= display>298</h1>
+                <p class="lead"> El poroto, también conocido como frijol, tuvo su origen hace 8000 años en Mesoamérica, específicamente, México. En Chile, podemos encontrar diferentes variedades, llegando hasta <h1 class= display>298!!!</h1>  </p>
             </div>
         </div>
     </div>
@@ -61,39 +79,47 @@
         <div class="row">
             <div class="col-md-6 my-2">
                 <h2>Variedades populares y su consumo percapita</h2>
-                <p> El poroto, también conocido como frijol, tuvo su origen hace 8000 años en Mesoamérica, específicamente, México. Sin embargo, hoy en día, no se encuentran tantas variedades como en Chile. El Instituto de Investigaciones Agropecuarias de Chile ha registrado más de 90 variedades, pero otras fuentes confirman que hay 298 tipos!!! </p>
+                <p> En Chile, las variedades más comúnmente consumidas de porotos incluyen el granado, el negro, la boca de señorita, la vaquita coscorrón y el dedo. Estas variedades no solo enriquecen la gastronomía chilena con su diversidad de sabores y texturas, sino que también reflejan una tradición culinaria, que rescata sus origenes en pueblos originarios. </p>
             </div>
-
-<div class="container">
+ <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 chart-wrapper">
                 <h4 class="md-2 my-4 text-center">Poroto Granado</h4>
                 <canvas id="chartGranado" width="200" height="200"></canvas>
+                <img src="https://raw.githubusercontent.com/trinirodriguez/dno-fin/main/porotogranado1.png" alt="Poroto Granado">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 chart-wrapper">
                 <h4 class="md-2 my-4 text-center">Poroto Negro</h4>
                 <canvas id="chartNegro" width="200" height="200"></canvas>
+                <img src="https://raw.githubusercontent.com/trinirodriguez/dno-fin/main/porotonegro2.png" alt="Poroto Negro">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 chart-wrapper">
                 <h4 class="md-2 my-4 text-center">Poroto Boca de Señorita</h4>
                 <canvas id="chartTortola" width="200" height="200"></canvas>
+                <img src="https://raw.githubusercontent.com/trinirodriguez/dno-fin/main/porotoboca3.png" alt="Poroto Boca de Señorita">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 chart-wrapper">
                 <h4 class="md-2 my-4 text-center">Poroto Coscorrón</h4>
                 <canvas id="chartCoscorron" width="200" height="200"></canvas>
+                <img src="https://raw.githubusercontent.com/trinirodriguez/dno-fin/main/porotocoscorron4.png" alt="Poroto Coscorrón">
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 chart-wrapper">
                 <h4 class="md-2 my-4 text-center">Poroto Vaquita</h4>
                 <canvas id="chartPallares" width="200" height="200"></canvas>
+                <img src="https://raw.githubusercontent.com/trinirodriguez/dno-fin/main/porotovaquita5.png" alt="Poroto Vaquita">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 chart-wrapper">
                 <h4 class="md-2 my-4 text-center">Poroto Dedo</h4>
                 <canvas id="chartVerde" width="200" height="200"></canvas>
+                <img src="https://raw.githubusercontent.com/trinirodriguez/dno-fin/main/porotodedo6.png" alt="Poroto Dedo">
             </div>
+            </div>
+            </div>
+
 
             <div class="col-md-5 nutritional-chart-container">
                 <h2>Valor Nutricional del Poroto Granado</h2>
-                <p> El poroto, también conocido como frijol, tuvo su origen hace 8000 años en Mesoamérica, específicamente, México. Sin embargo, hoy en día, no se encuentran tantas variedades como en Chile. El Instituto de Investigaciones Agropecuarias de Chile ha registrado más de 90 variedades, pero otras fuentes confirman que hay 298 tipos!!! </p>
+                <p> El poroto común, consumido ampliamente en Chile, es conocido por su valor nutricional significativo. Aunque es uno de los tipos de poroto con menor contenido proteico en comparación con otras variedades, aún así proporciona una fuente importante de nutrientes esenciales. A pesar de que en Chile se cultivan variedades que pueden llegar a tener hasta 24 gramos de proteína por cada 100 gramos, los Chilenos seguímos consumiendo el con menor porcentaje. Este problrma se debe a que no tenemos soberanía alimentaria. </p>
                 <canvas id="nutritionalChart" width="400" height="200"></canvas>
             </div>
         </div>
@@ -193,7 +219,8 @@
         <div class="row">
             <div class="col-md-5 my-2 py-5">
                 <h2>Comparación Nutricional del poroto granado y otras legumbres</h2>
-                <p> El poroto, también conocido como frijol, tuvo su origen hace 8000 años en Mesoamérica, específicamente, México. Sin embargo, hoy en día, no se encuentran tantas variedades como en Chile.</p>
+                <p> los porotos, aunque varían en contenido de proteínas según la variedad, son reconocidos por su aporte significativo de fibra dietética, carbohidratos complejos y minerales como el hierro. Son esenciales en la dieta chilena tradicional, utilizados en platos como el porotos granados y aportando una base sustancial para sopas y guisos. Cada una de estas legumbres ofrece beneficios únicos, complementando una alimentación equilibrada y nutritiva.
+</p>
 
                 <div class="chart-container">
                     <canvas id="nutritionComparisonChart"></canvas>
